@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500"
+                android:layout_marginRight="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/oneTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/oneTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500"
+                android:layout_marginRight="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/twoTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/twoTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/threeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/threeTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500"
+                android:layout_marginRight="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/fourTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/fourTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500"
+                android:layout_marginRight="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/fiveTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/fiveTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/sixTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/sixTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500"
+                android:layout_marginRight="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/sevenTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/sevenTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500"
+                android:layout_marginRight="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/eightTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/eightTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/nineTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:paddingLeft="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="55sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESERVAR"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/nineTextView"
+                        android:backgroundTint="@color/LightGray"
+                        android:padding="5dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
