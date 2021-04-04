@@ -42,6 +42,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/onebtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -78,6 +79,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/twobtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -113,6 +115,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/threebtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -163,6 +166,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/fourbtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -199,6 +203,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/fivebtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -234,6 +239,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/sixbtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -284,6 +290,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/sevenbtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -320,6 +327,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/eightbtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -355,6 +363,7 @@
                         android:gravity="center_horizontal" />
 
                     <Button
+                        android:id="@+id/ninebtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="RESERVAR"
@@ -365,6 +374,55 @@
 
                 </RelativeLayout>
             </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <EditText
+                    android:id="@+id/tablenumberEdit"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Número Mesa" />
+
+                <Button
+                    android:id="@+id/releasesTablebtn"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@id/tablenumberEdit"
+                    android:backgroundTint="@color/LightGray"
+                    android:text="LIBERAR MESA"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/saveoperationbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/releasesTablebtn"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="-3dp"
+                    android:layout_marginBottom="0dp"
+                    android:backgroundTint="@color/LightGray"
+                    android:text="SALVAR OPERAÇÃO"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
