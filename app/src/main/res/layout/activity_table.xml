@@ -18,6 +18,7 @@
             android:padding="3dp">
 
             <LinearLayout
+                android:id="@+id/oneLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -55,6 +56,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/twoLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -92,6 +94,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/threeLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -142,6 +145,7 @@
             android:padding="3dp">
 
             <LinearLayout
+                android:id="@+id/fourLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -179,6 +183,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/fiveLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -216,6 +221,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/sixLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -266,6 +272,7 @@
             android:padding="3dp">
 
             <LinearLayout
+                android:id="@+id/sevenLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -303,6 +310,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/eightLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -340,6 +348,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/nineLayout"
                 android:layout_width="123dp"
                 android:layout_height="123dp"
                 android:orientation="vertical"
@@ -379,13 +388,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="210dp"
         android:orientation="horizontal"
         android:padding="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <RelativeLayout
@@ -400,7 +409,7 @@
                     android:hint="Número Mesa" />
 
                 <Button
-                    android:id="@+id/releasesTablebtn"
+                    android:id="@+id/releasestablebtn"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
@@ -413,15 +422,31 @@
                 <Button
                     android:id="@+id/saveoperationbtn"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_below="@id/releasesTablebtn"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginTop="-3dp"
-                    android:layout_marginBottom="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/releasestablebtn"
                     android:backgroundTint="@color/LightGray"
                     android:text="SALVAR OPERAÇÃO"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/releaseAlltablebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/saveoperationbtn"
+                    android:backgroundTint="@color/LightGray"
+                    android:text="RESERVAR TODAS MESAS"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+                <Button
+                    android:id="@+id/configbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/releaseAlltablebtn"
+                    android:backgroundTint="@color/LightGray"
+                    android:text="Configurações"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>

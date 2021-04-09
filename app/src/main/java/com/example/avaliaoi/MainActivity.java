@@ -4,11 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,15 +22,17 @@ public class MainActivity extends AppCompatActivity {
     private EditText passwordEdit;
     private Button SingInbtn;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Procura os componentes pela Idactivity_table
+        // Procura os componentes pela Id
         usernameEdit = findViewById(R.id.usernameEdit);
         passwordEdit = findViewById(R.id.passwordEdit);
         SingInbtn = findViewById(R.id.SingInbtn);
+
 
         SingInbtn.setOnClickListener(new View.OnClickListener() {
 
@@ -40,29 +48,40 @@ public class MainActivity extends AppCompatActivity {
                     passwordEdit.setError("Preencha os campos corretamente");
                 else{
                     if (usernameEdit.getText().toString().equals("Administrador")
-                            && (passwordEdit.getText().toString().equals("Administrador")))
+                            && (passwordEdit.getText().toString().equals("Administrador"))){
+
+                            startActivity(new Intent(MainActivity.this, TableActivity.class));
                             Toast.makeText(MainActivity.this, "Successfully loggedin!", Toast.LENGTH_LONG).show();
+                    }
                     else
                         Toast.makeText(MainActivity.this, "Please, verify the user and the password!", Toast.LENGTH_LONG).show();
                     if (usernameEdit.getText().toString().equals("Adm")
-                            && (passwordEdit.getText().toString().equals("Adm123")))
+                            && (passwordEdit.getText().toString().equals("Adm123"))){
+
+                        startActivity(new Intent(MainActivity.this, TableActivity.class));
                         Toast.makeText(MainActivity.this, "Successfully loggedin!", Toast.LENGTH_LONG).show();
+                    }
                     else
                         Toast.makeText(MainActivity.this, "Please, verify the user and the password!", Toast.LENGTH_LONG).show();
                     if (usernameEdit.getText().toString().equals("Administrator")
-                            && (passwordEdit.getText().toString().equals("Que3B1eng4ElT0r0")))
+                            && (passwordEdit.getText().toString().equals("Que3B1eng4ElT0r0"))){
+
+                        startActivity(new Intent(MainActivity.this, TableActivity.class));
                         Toast.makeText(MainActivity.this, "Successfully loggedin!", Toast.LENGTH_LONG).show();
+                    }
                     else
                         Toast.makeText(MainActivity.this, "Please, verify the user and the password!", Toast.LENGTH_LONG).show();
                     if (usernameEdit.getText().toString().equals("Root")
-                            && (passwordEdit.getText().toString().equals("pr0m1uscu0")))
+                            && (passwordEdit.getText().toString().equals("pr0m1uscu0"))){
+
+                        startActivity(new Intent(MainActivity.this, TableActivity.class));
                         Toast.makeText(MainActivity.this, "Successfully loggedin!", Toast.LENGTH_LONG).show();
+                    }
                     else
                         Toast.makeText(MainActivity.this, "Please, verify the user and the password!", Toast.LENGTH_LONG).show();
                 }
 
             }
         });
-
     }
 }
